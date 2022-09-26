@@ -1,0 +1,5 @@
+.cache
+.nuxt
+.idea
+build
+**/node_modules/**
