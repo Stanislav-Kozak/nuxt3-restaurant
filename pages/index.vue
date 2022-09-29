@@ -1,72 +1,5 @@
-<script setup lang="ts">
-const burger = ref(null)
-const dropdownMenu = ref(null)
-const openMenu = () => {
-	burger.value.classList.toggle('burger-active')
-	dropdownMenu.value.classList.toggle('dropdown-menu--show')
-}
-const closeMenu = () => {
-	burger.value.classList.toggle('burger-active')
-	dropdownMenu.value.classList.toggle('dropdown-menu--show')
-}
-</script>
-
 <template>
-	<div class="body">
-		<header class="header">
-			<div class="container header__wrapper">
-				<img class="header__logo-desktop" src="~/assets/image/static/logo.svg" alt="Logo" />
-				<img class="header__logo-mobile" src="~/assets/image/static/logo-mobile.svg" alt="Logo" />
-				<div class="header__navigation-wrapper">
-					<nav class="header__navigation-list">
-						<a href="#Home"> Home </a>
-						<a href="#Menu"> Menu </a>
-						<a href="#About-us"> About us </a>
-						<a href="#"> Booking </a>
-						<a href="#">
-							<img src="~/assets/image/static/cart.svg" alt="Cart" />
-						</a>
-					</nav>
-					<div class="header__phone-wrapper">
-						<a href="#" class="header__phone">
-							<img class="header__phone-image" src="~/assets/image/static/phone.svg" alt="Phone" />
-							+999-888-76-54
-						</a>
-						<p class="header__phone-description">Contact us for booking</p>
-					</div>
-					<button class="button header__button">RESERVATION</button>
-				</div>
-				<div ref="burger" class="header__burger burger" @click="openMenu">
-					<span class="burger__line burger__line--first"></span>
-					<span class="burger__line burger__line--second"></span>
-					<span class="burger__line burger__line--third"></span>
-					<span class="burger__line burger__line--fourth"></span>
-				</div>
-			</div>
-		</header>
-		<div ref="dropdownMenu" class="dropdown-menu">
-			<div class="dropdown-menu__content">
-				<div class="dropdown-menu__close-wrapper">
-					<img class="header__logo-mobile" src="~/assets/image/static/logo-mobile.svg" alt="Logo" />
-					<div class="close-icon" @click="closeMenu">
-						<span class="close-icon__line close-icon__line--first"></span>
-						<span class="close-icon__line close-icon__line--second"></span>
-					</div>
-				</div>
-				<div class="dropdown-menu__navigation-wrapper">
-					<nav class="dropdown-menu__navigation-list">
-						<a href="#Home"> HOME </a>
-						<a href="#Menu"> MENU </a>
-						<a href="#About-us"> ABOUT US </a>
-						<a href="#"> BOOKING </a>
-					</nav>
-					<div class="dropdown-menu__phone-wrapper">
-						<a href="tel:+999-888-76-54" class="dropdown-menu__phone"> +999-888-76-54 </a>
-					</div>
-					<button class="button dropdown-menu__button">RESERVATION</button>
-				</div>
-			</div>
-		</div>
+	<div>
 		<div class="content__hero-image"></div>
 		<main id="Home" class="content">
 			<div class="container">
@@ -226,10 +159,5 @@ const closeMenu = () => {
 				</div>
 			</div>
 		</main>
-		<footer class="footer">
-			<div class="container footer__wrapper" style="color: white">
-				<p class="footer__copyright">© <span>2022</span> Restaurant</p>
-			</div>
-		</footer>
 	</div>
 </template>
