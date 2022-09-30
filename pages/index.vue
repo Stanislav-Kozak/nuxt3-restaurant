@@ -24,19 +24,19 @@
 				<div id="About-us" class="about-us">
 					<div class="about-us__card-wrapper">
 						<div class="about-us__card">
-							<img class="about-us__card-image" src="~/assets/image/static/dishes.svg" alt="Dishes" />
+							<img class="about-us__card-image" src="~/assets/images/static/dishes.svg" alt="Dishes" />
 							<h4 class="about-us__card-title">Magic <strong>Atmosphere</strong></h4>
 							<p class="about-us__card-description">
 								In our establishment there is a magical atmosphere filled with delicious aromas.
 							</p>
 						</div>
 						<div class="about-us__card">
-							<img class="about-us__card-image" src="~/assets/image/static/dishes.svg" alt="Dishes" />
+							<img class="about-us__card-image" src="~/assets/images/static/dishes.svg" alt="Dishes" />
 							<h4 class="about-us__card-title">Best Quality <strong>Food</strong></h4>
 							<p class="about-us__card-description">The quality of our food&nbsp;is&nbsp;excellent!</p>
 						</div>
 						<div class="about-us__card">
-							<img class="about-us__card-image" src="~/assets/image/static/dishes.svg" alt="Dishes" />
+							<img class="about-us__card-image" src="~/assets/images/static/dishes.svg" alt="Dishes" />
 							<h4 class="about-us__card-title">Cheap <strong>Food</strong></h4>
 							<p class="about-us__card-description">
 								The cost of our Food depends only on its quantity. The quality is always top notch!
@@ -68,7 +68,7 @@
 							</div>
 						</div>
 						<div class="about-us__image-wrapper">
-							<img class="about-us__image" src="~/assets/image/static/history-images.png" alt="Media image" />
+							<img class="about-us__image" src="~/assets/images/static/history-images.png" alt="Media image" />
 						</div>
 					</div>
 				</div>
@@ -88,7 +88,7 @@
 					<div class="dishes__title-image"></div>
 					<div class="dishes__menu-list">
 						<div class="dishes__menu-item">
-							<img class="dishes__item-image" src="~/assets/image/static/hamburger.png" alt="Hamburger" />
+							<img class="dishes__item-image" src="~/assets/images/static/hamburger.png" alt="Hamburger" />
 							<div class="dishes__name-wrapper">
 								<span class="dishes__item-name"> Hamburger mini </span>
 								<span class="dishes__item-dash"></span>
@@ -96,7 +96,7 @@
 							</div>
 						</div>
 						<div class="dishes__menu-item">
-							<img class="dishes__item-image" src="~/assets/image/static/tacos.jpg" alt="Hamburger" />
+							<img class="dishes__item-image" src="~/assets/images/static/tacos.jpg" alt="Hamburger" />
 							<div class="dishes__name-wrapper">
 								<span class="dishes__item-name"> Tacos with chicken </span>
 								<span class="dishes__item-dash"></span>
@@ -104,7 +104,7 @@
 							</div>
 						</div>
 						<div class="dishes__menu-item">
-							<img class="dishes__item-image" src="~/assets/image/static/сaesar-salad.jpg" alt="Hamburger" />
+							<img class="dishes__item-image" src="~/assets/images/static/сaesar-salad.jpg" alt="Hamburger" />
 							<div class="dishes__name-wrapper">
 								<span class="dishes__item-name"> Caesar salad </span>
 								<span class="dishes__item-dash"></span>
@@ -121,7 +121,7 @@
 						<div class="menu__item-list">
 							<div class="menu__item-recommended">Most popular</div>
 							<div class="menu__image-wrapper">
-								<img class="menu__item-image" src="~/assets/image/static/burger-menu.png" alt="Burger" />
+								<img class="menu__item-image" src="~/assets/images/static/burger-menu.png" alt="Burger" />
 								<div class="menu__item-price">$42</div>
 							</div>
 							<h5 class="menu__item-name">Hamburger maxi</h5>
@@ -132,7 +132,7 @@
 						</div>
 						<div class="menu__item-list">
 							<div class="menu__image-wrapper">
-								<img class="menu__item-image" src="~/assets/image/static/steak.jpg" alt="Ribeye steak" />
+								<img class="menu__item-image" src="~/assets/images/static/steak.jpg" alt="Ribeye steak" />
 								<div class="menu__item-price">$76</div>
 							</div>
 							<h5 class="menu__item-name">Ribeye steak</h5>
@@ -144,7 +144,7 @@
 						</div>
 						<div class="menu__item-list">
 							<div class="menu__image-wrapper">
-								<img class="menu__item-image" src="~/assets/image/static/pork-ribs.jpg" alt="Pork ribs" />
+								<img class="menu__item-image" src="~/assets/images/static/pork-ribs.jpg" alt="Pork ribs" />
 								<div class="menu__item-price">$54</div>
 							</div>
 							<h5 class="menu__item-name">Pork ribs BBQ</h5>
@@ -161,3 +161,16 @@
 		</main>
 	</div>
 </template>
+
+<style scoped lang="scss">
+.content__hero-image {
+	position: absolute;
+	background-image: url('./assets/images/static/hero-image-header.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -5;
+	width: 100%;
+	height: 800px;
+	top: 0;
+}
+</style>

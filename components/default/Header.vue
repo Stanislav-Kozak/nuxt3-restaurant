@@ -1,8 +1,8 @@
 <template>
 	<header class="header">
 		<div class="container header__wrapper">
-			<img class="header__logo-desktop" src="~/assets/image/static/logo.svg" alt="Logo" />
-			<img class="header__logo-mobile" src="~/assets/image/static/logo-mobile.svg" alt="Logo" />
+			<img class="header__logo-desktop" src="~/assets/images/static/logo.svg" alt="Logo" />
+			<img class="header__logo-mobile" src="~/assets/images/static/logo-mobile.svg" alt="Logo" />
 			<div class="header__navigation-wrapper">
 				<nav class="header__navigation-list">
 					<a href="#Home"> Home </a>
@@ -10,29 +10,19 @@
 					<a href="#About-us"> About us </a>
 					<a href="#"> Booking </a>
 					<a href="#">
-						<img src="~/assets/image/static/cart.svg" alt="Cart" />
+						<img src="~/assets/images/static/cart.svg" alt="Cart" />
 					</a>
 				</nav>
 				<div class="header__phone-wrapper">
 					<a href="#" class="header__phone">
-						<img class="header__phone-image" src="~/assets/image/static/phone.svg" alt="Phone" />
+						<img class="header__phone-image" src="~/assets/images/static/phone.svg" alt="Phone" />
 						+999-888-76-54
 					</a>
 					<p class="header__phone-description">Contact us for booking</p>
 				</div>
 				<button class="button header__button">RESERVATION</button>
 			</div>
-			<div
-				ref="burger"
-				:class="{ 'burger-active': isActiveMenu }"
-				class="header__burger burger"
-				@click="isActiveMenu = !isActiveMenu"
-			>
-				<span class="burger__line burger__line--first"></span>
-				<span class="burger__line burger__line--second"></span>
-				<span class="burger__line burger__line--third"></span>
-				<span class="burger__line burger__line--fourth"></span>
-			</div>
+			<BaseBurger v-model="isActiveMenu" />
 		</div>
 		<BaseDropdownMenu v-model="isActiveMenu" />
 	</header>
