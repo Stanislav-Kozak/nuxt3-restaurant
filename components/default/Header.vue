@@ -84,9 +84,7 @@ const isActiveMenu = ref(false)
 		padding: 20px 21px;
 		border-right: 1px solid var(--white-font-color);
 
-		font-weight: 700;
-		font-size: 18px;
-		line-height: 19px;
+		@include font-wsl-style(700, 18px, 19px);
 		color: var(--white-font-color);
 
 		a:hover {
@@ -107,9 +105,7 @@ const isActiveMenu = ref(false)
 		align-items: center;
 		gap: 8px;
 
-		font-weight: 700;
-		font-size: 18px;
-		line-height: 25px;
+		@include font-wsl-style(700, 18px, 25px);
 		color: var(--white-font-color);
 	}
 
@@ -117,9 +113,7 @@ const isActiveMenu = ref(false)
 		color: var(--white-font-color);
 		max-width: 150px;
 
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 19px;
+		@include font-wsl-style(400, 16px, 19px);
 	}
 
 	&__button {

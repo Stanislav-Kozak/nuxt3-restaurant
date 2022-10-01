@@ -77,9 +77,7 @@ defineEmits<{
 		flex-direction: column;
 		align-items: center;
 
-		font-weight: 700;
-		font-size: 22px;
-		line-height: 24px;
+		@include font-wsl-style(700, 22px, 24px);
 
 		a {
 			padding: 12px 0;
@@ -88,15 +86,11 @@ defineEmits<{
 
 	&__phone-wrapper {
 		align-self: center;
-		font-weight: 700;
-		font-size: 22px;
-		line-height: 24px;
+		@include font-wsl-style(700, 22px, 24px);
 	}
 
 	&__button {
-		font-weight: 700;
-		font-size: 22px;
-		line-height: 24px;
+		@include font-wsl-style(700, 22px, 24px);
 	}
 }
 
