@@ -1,0 +1,5 @@
+@mixin font-wsl-style ($font-weights, $font-size, $line-height ) {
+  font-weight: $font-weights;
+  font-size: $font-size;
+  line-height: $line-height;
+}
