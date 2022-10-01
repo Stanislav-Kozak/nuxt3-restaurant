@@ -1,0 +1,28 @@
+.container {
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    max-width: 1108px;
+    margin: 0 auto;
+  }
+}
+
+.button {
+  background: var(--primary-color);
+  border: none;
+  padding: 14px 18px;
+
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--white-font-color);
+
+  &:hover {
+    cursor: pointer;
+    background: #ff8e38;;
+  }
+}
+
+

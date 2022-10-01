@@ -1,0 +1,22 @@
+$sm-break-point: 768px;
+$lp-break-point: 1024px;
+
+$primary-color: #FF7400;
+$primary-light-color: #BC9060;
+$primary-dark-color: #D67E35;
+$main-font-color: #000000;
+$secondary-black-font-color: #2C2C2C;
+$secondary-font-color: #656363;
+$white-font-color: #FFFFFF;
+
+:root {
+  --sm-break-point: #{$sm-break-point};
+  --lp-break-point: #{$lp-break-point};
+  --primary-color: #{$primary-color};
+  --primary-light-color: #{$primary-light-color};
+  --primary-dark-color: #{$primary-dark-color};
+  --main-font-color: #{$main-font-color};
+  --secondary-black-font-color: #{$secondary-black-font-color};
+  --secondary-font-color: #{$secondary-font-color};
+  --white-font-color: #{$white-font-color};
+}
