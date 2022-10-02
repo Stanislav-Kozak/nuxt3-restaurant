@@ -14,7 +14,7 @@
 				HOUSE OF THE BEST FOOD
 				<span class="welcome__horizontal-line"></span>
 			</p>
-			<button class="button welcome__button">VIEW MENU</button>
+			<AppButton class="welcome__button">VIEW MENU</AppButton>
 		</div>
 	</div>
 </template>
