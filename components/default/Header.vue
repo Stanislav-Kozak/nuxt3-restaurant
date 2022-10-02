@@ -20,7 +20,7 @@
 					</a>
 					<p class="header__phone-description">Contact us for booking</p>
 				</div>
-				<button class="button header__button">RESERVATION</button>
+				<AppButton class="header__button">RESERVATION</AppButton>
 			</div>
 			<BaseBurger v-model="isActiveMenu" />
 		</div>

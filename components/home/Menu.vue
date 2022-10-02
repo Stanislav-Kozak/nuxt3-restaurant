@@ -13,7 +13,7 @@
 					<p class="menu__item-description">
 						Big cutlet, mix of vegetables, incredibly crispy bun with a special sauce inside
 					</p>
-					<button class="button menu__item-button">ORDER</button>
+					<AppButton class="menu__item-button">ORDER</AppButton>
 				</div>
 				<div class="menu__item-list">
 					<div class="menu__image-wrapper">
@@ -25,7 +25,7 @@
 						Enjoy a real delicacy and exquisite taste! Ribeye steak, made from Black angus gobies, is distinguished by a
 						high degree of marbling, which is formed due to small fat layers and resembles a marble pattern.
 					</p>
-					<button class="button menu__item-button">ORDER</button>
+					<AppButton class="menu__item-button">ORDER</AppButton>
 				</div>
 				<div class="menu__item-list">
 					<div class="menu__image-wrapper">
@@ -37,7 +37,7 @@
 						These pork ribs are rubbed with a blend of earthy spices and brushed with a slowly simmered sauce that has a
 						slight kick. They come off the grill tender yet pleasingly chewy, with just the right hit of smoky goodness.
 					</p>
-					<button class="button menu__item-button">ORDER</button>
+					<AppButton class="menu__item-button">ORDER</AppButton>
 				</div>
 			</div>
 		</div>
@@ -144,11 +144,13 @@
 		color: var(--main-font-color);
 		text-align: center;
 	}
+	::v-deep(.button) {
+		background: var(--primary-dark-color);
+	}
 
 	&__item-button {
 		margin-top: auto;
 		width: 100%;
-		background: var(--primary-dark-color);
 		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 	}
 }

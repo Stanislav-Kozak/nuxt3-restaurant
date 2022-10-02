@@ -19,7 +19,7 @@
 					<div class="dropdown-menu__phone-wrapper">
 						<a href="tel:+999-888-76-54" class="dropdown-menu__phone"> +999-888-76-54 </a>
 					</div>
-					<button class="button dropdown-menu__button">RESERVATION</button>
+					<AppButton class="dropdown-menu__button">RESERVATION</AppButton>
 				</div>
 			</div>
 		</div>

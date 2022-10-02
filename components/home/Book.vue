@@ -5,7 +5,7 @@
 				<h4 class="book__title">Celebrate at one of the finest restaurants.</h4>
 				<p class="book__description">Only this month business lunch from $45</p>
 			</div>
-			<button class="button book__button">RESERVATION</button>
+			<AppButton class="book__button">RESERVATION</AppButton>
 		</div>
 	</div>
 </template>
